@@ -686,4 +686,4 @@ client.on("error", (err) => console.log(err));
 process.on("uncaughtException", (err) => console.log(err));
 process.on("uncaughtExceptionMonitor", (err) => console.log(err));
 process.on("rejectionHandled", (err) => console.log(err)); 
-client.login(process.config.json.TOKEN);
+client.login(process.env.TOKEN);
