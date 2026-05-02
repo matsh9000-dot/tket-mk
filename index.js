@@ -685,4 +685,7 @@ client.login(config.TOKEN);
 client.on("error", (err) => console.log(err));
 process.on("uncaughtException", (err) => console.log(err));
 process.on("uncaughtExceptionMonitor", (err) => console.log(err));
-process.on("rejectionHandled", (err) => console.log(err));
+process.on("rejectionHandled", (err) => console.log(err)); 
+const config = require('./config.json');
+
+client.login(config.token);
