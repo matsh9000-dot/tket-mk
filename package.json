@@ -1,0 +1,30 @@
+{
+  "name": "enzo-quests",
+  "version": "1.0.0",
+  "description": "Discord Quests notification bot — polls Discord internal API and posts Components V2 messages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "better-sqlite3": "^12.9.0",
+    "discord": "^0.8.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "sharp": "^0.34.5"
+  },
+  "keywords": [
+    "discord",
+    "quests",
+    "bot",
+    "notifications"
+  ],
+  "author": "Enzo",
+  "license": "MIT"
+}
